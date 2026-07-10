@@ -1,8 +1,8 @@
-import Hero from './main/partials/hero';
-import Navbar from './main/partials/navbar';
-import Category from './main/partials/category';
-import Recommended from './main/partials/recommended';
-import Footer from './main/partials/footer';
+import Hero from '../components/partials/hero';
+import Navbar from '../components/partials/navbar';
+import Category from '../components/partials/category';
+import Recommended from '../components/partials/recommended';
+import Footer from '../components/partials/footer';
 
 export default function Home() {
   return (

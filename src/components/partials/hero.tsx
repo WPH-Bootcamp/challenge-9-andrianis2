@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Search, LoaderCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -31,7 +32,7 @@ export default function HeroSection() {
             variant='outline'
             className='h-12 rounded-full border-white bg-white/10 px-12 text-white backdrop-blur-md hover:bg-white hover:text-black'
           >
-            Sign In
+            <Link href='/auth/login'>Sign In</Link>
           </Button>
 
           <Button className='h-12 rounded-full bg-white px-12 font-semibold text-black hover:bg-orange-500 hover:text-white'>

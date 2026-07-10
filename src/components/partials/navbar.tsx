@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* tombol */}
 
         <Button asChild className='hidden lg:flex' variant='outline'>
-          <Link href='#'>Sign In</Link>
+          <Link href='/login'>Sign In</Link>
         </Button>
         <Button asChild className='hidden lg:flex'>
           <Link href='#'>Sign Up</Link>
